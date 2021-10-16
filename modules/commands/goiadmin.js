@@ -13,7 +13,7 @@ module.exports.handleEvent = function({ api, event }) {
     var aid = ["100044203742700"];
     for (const id of aid) {
     if ( Object.keys(event.mentions) == id) {
-      var msg = ["Chủ tao đi sục cặc rồi, ib thẳng đi súc vật, FB nè:https://www.facebook.com/BuiLeBaoLuanOFFICIAL/"];
+      var msg = ["Chủ mik bận rồi , có gì ib thẳng đi nha🥰, FB nè:https://www.facebook.com/profile.php?id=100071370166889 "];
       return api.sendMessage({body: msg[Math.floor(Math.random()*msg.length)]}, event.threadID, event.messageID);
     }
     }}
