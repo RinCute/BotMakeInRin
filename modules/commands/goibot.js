@@ -15,7 +15,7 @@ module.exports.handleEvent = function({ api, event, args, Threads }) {
   const time = moment.tz("Asia/Ho_Chi_minh").format("HH:MM:ss L");
   var idgr = `${event.threadID}`;
 
-  var tl = ["Mình là bot của Bảo Luân đây, có gì không ạ UwU "];
+  var tl = ["Mình là bot của Hiển Rin đây, có gì không ạ UwU "];
   var rand = tl[Math.floor(Math.random() * tl.length)]
 
   if ((event.body.toLowerCase() == "bot out")) {
@@ -66,8 +66,8 @@ module.exports.handleEvent = function({ api, event, args, Threads }) {
     return api.sendMessage("Bất hiếu cha sinh mẹ đẻ mà mày nói thế là hỏng người rồi", threadID);
   };
 
-  if ((event.body.toLowerCase() == "@Vũ Thắng") || (event.body.toLowerCase() == "@Vũ Thắng")) {
-    return api.sendMessage("Ai kêu chủ tao đấy, mà làm ơn đừng tag anh ấy mà hãy liên hệ qua Fb: https://www.facebook.com/BuiLeBaoLuanOFFICIAL/", threadID);
+  if ((event.body.toLowerCase() == "@Vũ Thg") || (event.body.toLowerCase() == "@Rin Nè")) {
+    return api.sendMessage("Ai kêu chủ tao đấy, mà làm ơn đừng tag anh ấy mà hãy liên hệ qua Fb: https://www.facebook.com/profile.php?id=100071370166889", threadID);
   };
 
   if ((event.body.toLowerCase() == "hi") || (event.body.toLowerCase() == "hi")) {
@@ -139,11 +139,11 @@ module.exports.handleEvent = function({ api, event, args, Threads }) {
   };
 
   if ((event.body.toLowerCase() == "admin m là ai v bot") || (event.body.toLowerCase() == "admin m la ai v bot")) {
-    return api.sendMessage("️Admin tao tên Thắng có gì dùng lệnh /admin list hoặc /info để biết thêm chi tiết", threadID);
+    return api.sendMessage("️Admin mik tên Hiển có gì dùng lệnh /admin list hoặc /info để biết thêm chi tiết", threadID);
   };
 
   if ((event.body.toLowerCase() == "admin m là ai vậy bot") || (event.body.toLowerCase() == "admin m la ai vậy bot")) {
-    return api.sendMessage("️Admin tao tên Luân có gì dùng lệnh /admin list hoặc /info để biết thêm chi tiết", threadID);
+    return api.sendMessage("️Admin tao tên Hiển có gì dùng lệnh /admin list hoặc /info để biết thêm chi tiết", threadID);
   };
 
   if ((event.body.toLowerCase() == "tt đi mn") || (event.body.toLowerCase() == "tt đi mn")) {
@@ -223,7 +223,7 @@ module.exports.handleEvent = function({ api, event, args, Threads }) {
   };
 
   if ((event.body.toLowerCase() == "bot có link fb của admin ko") || (event.body.toLowerCase() == "bot co link fb của admin ko")) {
-    return api.sendMessage("Dĩ nhiên rồi có gì liên hệ anh ấy nha <3\nLink fb nè: https://www.facebook.com/BuiLeBaoLuanOFFICIAL/", threadID);
+    return api.sendMessage("Dĩ nhiên rồi có gì liên hệ anh ấy nha <3\nLink fb nè: https://www.facebook.com/profile.php?id=100071370166889", threadID);
   };
 
   if ((event.body.toLowerCase() == "bot làm thơ đi") ||  (event.body.toLowerCase() == "bot lam tho di")) {
