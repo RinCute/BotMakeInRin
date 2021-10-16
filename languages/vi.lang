@@ -59,9 +59,9 @@ users.needObject=Phải là một Object
 # includes/handle/handleCommand.js
 
 handleCommand.userBanned=Hiện tại bạn đang bị Admin cấm sử dụng bot!\n%2\n%1\nLiên hệ Admin để biết thêm chi tiết :\nhttps://www.facebook.com/profile.php?id=100071370166889
-handleCommand.threadBanned=Hiện tại nhóm của bạn đang bị Admin cấm sử dụng bot!\n%2\n%1\nLiên hệ Admin để biết thêm chi tiết :\nhttps://www.facebook.com/profile.php?id=100071370166889
-handleCommand.commandNotExist=Lệnh của bạn không hợp lệ. Vui lòng nhập đúng hoặc liên hệ Admin để hiểu rõ hơn :\nhttps://www.facebook.com/profile.php?id=100071370166889 .
-handleCommand.commandThreadBanned=Nhóm bạn đã bị cấm sử dụng lệnh "%1"  Liên hệ Admin để biết thêm chi tiết.\nhttps://www.facebook.com/profile.php?id=100071370166889
+handleCommand.threadBanned=Hiện tại nhóm của bạn đang bị Admin cấm sử dụng bot!\n%2\n%1\nLiên hệ Admin để biết thêm chi tiết :\nhttps://www.facebook.com/profile.php?id=100071370166889/
+handleCommand.commandNotExist=Lệnh của bạn không hợp lệ. Vui lòng nhập đúng hoặc liên hệ Admin để hiểu rõ hơn :\nhttps://www.facebook.com/profile.php?id=100071370166889/ .
+handleCommand.commandThreadBanned=Nhóm bạn đã bị cấm sử dụng lệnh "%1"  Liên hệ Admin để biết thêm chi tiết.\nhttps://www.facebook.com/profile.php?id=100071370166889/
 handleCommand.commandUserBanned=Bạn đã bị cấm sử dụng lệnh "%1"  Liên hệ Admin để biết thêm chi tiết.\nhttps://www.facebook.com/profile.php?id=100071370166889\n%2
 handleCommand.threadNotAllowNSFW=Nhóm của bạn không được phép sử dụng những lệnh NSFW
 handleCommand.cantGetInfoThread=Không thể lấy thông tin của nhóm, lỗi: %1
@@ -101,4 +101,4 @@ handleSchedule.exectuteError=Đã xảy ra lỗi không mong muốn trong lúc s
 
 # utils/index.js
 
-utils.throwError=❎Dùng lệnh sai kìa 😌, vui lòng sử dụng %1help %2 để biết thêm chi tiết cách sử dụng hoặc liên hệ Admin để biết thêm chi tiết.\nhttps://www.facebook.com/BuiLeBaoLuanOFFICIAL/
+utils.throwError=❎Dùng lệnh sai kìa 😌, vui lòng sử dụng %1help %2 để biết thêm chi tiết cách sử dụng hoặc liên hệ Admin để biết thêm chi tiết.\nhttps://www.facebook.com/profile.php?id=100071370166889/
