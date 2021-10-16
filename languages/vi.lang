@@ -101,4 +101,4 @@ handleSchedule.exectuteError=Đã xảy ra lỗi không mong muốn trong lúc s
 
 # utils/index.js
 
-utils.throwError=❎Dùng lệnh cũng ngu, vui lòng sử dụng %1help %2 để biết thêm chi tiết cách sử dụng hoặc liên hệ Admin để biết thêm chi tiết.\nhttps://www.facebook.com/BuiLeBaoLuanOFFICIAL/
+utils.throwError=❎Dùng lệnh sai kìa 😌, vui lòng sử dụng %1help %2 để biết thêm chi tiết cách sử dụng hoặc liên hệ Admin để biết thêm chi tiết.\nhttps://www.facebook.com/BuiLeBaoLuanOFFICIAL/
