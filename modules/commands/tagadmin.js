@@ -9,7 +9,7 @@ name: "tagadmin",
 	cooldowns: 5,
 };
 module.exports.handleEvent = function({ api, event }) {
-        var reply = ["Tag cái lồn, chủ t đi sục cặc rồi,ib thẳng đi súc vật"];
+        var reply = ["Tag cái gì 🙂, chủ mik đi chs rồi,ib thẳng đi "];
         var replyrand = reply[Math.floor(Math.random() * reply.length)];
         var mention = Object.keys(event.mentions)[0]
 	if (mention == global.config.ADMINBOT) {
