@@ -14,7 +14,7 @@ module.exports.run = async function({ api, event, Users }) {
 	const { threadID } = event;
 	if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
 		api.changeNickname(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? "Bypass bởi Mai Huy Bảo" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-		return api.sendMessage(`Đã Kết Nối Thành Công Với Bot Của Bảo Luân UwU, Vui Lòng Không Spam + Chửi Bot Để Tránh Ăn Ban Nha. Yêuuuuuu`, threadID);
+		return api.sendMessage(`Đã Kết Nối Thành Công Với Bot Của Hiển Rin UwU, Vui Lòng Không Spam + Chửi Bot Để Tránh Ăn Ban Nha. Yêuuuuuu`, threadID);
 	}
 	else {
 		try {
