@@ -12,7 +12,7 @@ module.exports.config = {
 			key: "Text",
 			prompt: "Đoạn văn bản bạn muốn gửi tới mọi người",
 			type: 'Văn bản',
-			example: 'Hello Em'
+			example: 'Xin chào mn mik là bot của Hiển Rin '
 		}
 	]
 };
