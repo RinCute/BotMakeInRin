@@ -4,7 +4,7 @@ name: "Yasuo ma kiếm",
 	version: "1.0.1",
 	description: "Hasagi",
 	commandCategory: "Không cần dấu lệnh",
-	usages: "",
+	usages: "Hasagi",
 	cooldowns: 5,
 };
 
