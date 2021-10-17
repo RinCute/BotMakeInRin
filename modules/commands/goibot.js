@@ -66,7 +66,7 @@ module.exports.handleEvent = function({ api, event, args, Threads }) {
     return api.sendMessage("Bất hiếu cha sinh mẹ đẻ mà mày nói thế là hỏng người rồi", threadID);
   };
 
-  if ((event.body.toLowerCase() == "@Vũ Thg") || (event.body.toLowerCase() == "@Rin Nè")) {
+  if ((event.body.toLowerCase() == "@Rin Nè") || (event.body.toLowerCase() == "@Rin Nè")) {
     return api.sendMessage("Ai kêu chủ tao đấy, mà làm ơn đừng tag anh ấy mà hãy liên hệ qua Fb: https://www.facebook.com/profile.php?id=100071370166889", threadID);
   };
 
@@ -118,7 +118,7 @@ module.exports.handleEvent = function({ api, event, args, Threads }) {
     return api.sendMessage("Chào bạn yêu dấu, chúc bạn một ngày mới tốt lành ❤️", threadID);
   };
 
-  if ((event.body.toLowerCase() == "chào cậu") || (event.body.toLowerCase() == "chao cau")) {
+  if ((event.body.toLowerCase() == "chào bot") || (event.body.toLowerCase() == "chao bot")) {
     return api.sendMessage("Hí chào bạn <3", threadID);
   };
 
@@ -240,7 +240,30 @@ module.exports.handleEvent = function({ api, event, args, Threads }) {
     }
     return api.sendMessage(msg, threadID, messageID);
   };
-
+  if ((event.body.toLowerCase() == "bot giới thiệu đi") || (event.body.toLowerCase() == "bot giới thiệu di")) {
+    return api.sendMessage("Mik là bot đc lập trình cách đây hok lâu. Mik có thực hiện lệnh từ mn thông qua /menu nha. Mong đc mn giúp đỡ nhìu nè. Yêuuuu❤️", threadID);
+  };
+  if ((event. body.toLowerCase() == "Rin là ai") || ( event. body.toLowerCase() == "Rin la ai")) {
+    return api.sendMessage("Rin là Triết Học Gia, thâm sâu nghĩa nặng, tinh thông vấn đề nha❤️", threadID);
+  };
+  if ((event. body.toLowerCase() == "Minh là ai") || ( event. body.toLowerCase() == "Minh la ai")) {
+    return api.sendMessage("Minh là Tổng Trưởng kiêm Bộ trưởng bộ gáy bẩn 😎, là người ko cần biết có vấn đề gì chỉ cần có chuyện sẽ lun có mặt, rất có tâm nhé😁", threadID);
+  };
+  if ((event. body.toLowerCase() == "Bình là ai") || (event. body.toLowerCase() == "Binh la ai")) {
+    return api.sendMessage("Bình là giáo sư sinh học, riêng về sinh học số 2 ko ai số 1 theo 1 nghĩa đen nào đó, cx là 1 best gáy bẩn ko kém ai của team S nha😙", threadID);
+  };
+  if ((event. body.toLowerCase() == "Đài là ai") || (event.body.toLowerCase() == "Dai la ai")) {
+    return api.sendMessage("Đài là Trang mà Trang cx là Đài, là ny toản hmm đúng là 1 bộ đôi hờn dỗi có 102 trong lịch sử, ân tình nghĩa nặng, tình cảm uyên thâm nhé😆", threadID);
+  };
+  if ((event. body.toLowerCase() == "Huy là ai") || (event. body.toLowerCase() == "Huy la ai")) {
+    return api.sendMessage("Huy ak hmm khá văn vở đấy nhỉ🤔, con người ít tt hok hiểu sao vẫn lên đc rank😌. nhưng khá hiểu biết đấy nhỉ 🤓", threadID);
+  };
+  if ((event. body.toLowerCase() == "Toản là ai") || (event. body.toLowerCase() == "Toan la ai")) {
+    return api.sendMessage("Toản là giáo sư mõm tạ, độ theo ý cứng đầu mang đi chọi chó còn chết, đá còn vỡ chứ ns gì người thường, chs game thất thường, con người bất biến, là 1 nhân tố tạo nên bộ đôi có 102 ngày nay, chả hiểu sao lại là nóc nhà đc nhỉ 🤔", threadID);
+  };
+  if ((event. body.toLowerCase() == "Cần là ai") || (event. body.toLowerCase() == "Can la ai")) {
+    return api.sendMessage("Cần là thầy cần rose, chả hiểu sao vẫn để là thầy đc, cố chấp ko ai bằng, độ ngu ko ai có, chs game cả mùa k lên nổi rank, tt thì ít hơn cả vc gặp con chó trong nhà bot, hok bh khá lên đc😌", threadID);
+  };
 }
 
 module.exports.run = function({ api, event, client, __GLOBAL }) { }
