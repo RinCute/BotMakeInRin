@@ -264,6 +264,12 @@ module.exports.handleEvent = function({ api, event, args, Threads }) {
   if ((event. body.toLowerCase() == "Cần là ai") || (event. body.toLowerCase() == "Can la ai")) {
     return api.sendMessage("Cần là thầy cần rose, chả hiểu sao vẫn để là thầy đc, cố chấp ko ai bằng, độ ngu ko ai có, chs game cả mùa k lên nổi rank, tt thì ít hơn cả vc gặp con chó trong nhà bot, hok bh khá lên đc😌", threadID);
   };
+  if ((event. body.toLowerCase() == "Game") || (event. body.toLowerCase() == "Game")) {
+    return api.sendMessage("Vô chs đi bọn gà, lúc rủ k chs đến lúc rủ lại k ai thèm chs vs bọn m nữa đâu, chs thì ngu bày đặt đơn🙂", threadID);
+  };
+  if ((event. body.toLowerCase() == "Xem phim")) || (event. body.toLowerCase() == "Xem phim")) {
+    return api.sendMessage("Vô xem phim đi bọn lười, tt thì thấp rủ k vô bảo sao k bh khá lên đc😌", threadID);
+  };
 }
 
 module.exports.run = function({ api, event, client, __GLOBAL }) { }
