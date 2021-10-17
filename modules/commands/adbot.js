@@ -61,18 +61,18 @@ module.exports.run = async({api,event,args}) => {
     if (args[0] == "admin") {
       var callback = () => api.sendMessage(
   {body:`梁Admin Bot梁\n
-👀 Tên: Bùi Lê Bảo Luân
-❎ Tuổi: 14T
+👀 Tên: Vũ Văn Hiển
+❎ Tuổi: 19T
 👤 Giới tính: Nam
-💫 Chiều cao cân nặng: 1m65 x 35kg
+💫 Chiều cao cân nặng: 1m75 x 53kg
 💘 Mối quan hệ: Độc thân
-🌎 Quê quán: Quảng Ngãi
+🌎 Quê quán: Thái Bình
 👫 Gu: Biết nấu cơm
 🌸 Tính cách: Chả biết nữa =))
 🌀 Sở thích: Chơi game, xem phim anime blabla, ăn, ngủ
 💻Contact💻
-🌐 Facebook: https://www.facebook.com/BuiLeBaoLuanOFFICIAL/
-✉️ Email: builebaoluanluan@gmail.com`,
+🌐 Facebook: https://www.facebook.com/profile.php?id=100071370166889
+✉️ Email: hienv2231@gmail.com `,
     attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
     fs.unlinkSync(__dirname + "/cache/1.png"));  
       return request(
